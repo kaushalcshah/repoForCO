@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverWebServer", "CrossOverWebServer\CrossOverWebServer.csproj", "{DAE07893-8F63-4109-BD31-A9EE4D1AECAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{AD86EC3D-EA75-476D-92EA-D855F3EB206A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOverWebServer.Test", "CrossOverWebServer.Test\CrossOverWebServer.Test.csproj", "{8D233BE4-C241-4601-9152-88793370CF83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE07893-8F63-4109-BD31-A9EE4D1AECAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE07893-8F63-4109-BD31-A9EE4D1AECAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE07893-8F63-4109-BD31-A9EE4D1AECAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE07893-8F63-4109-BD31-A9EE4D1AECAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D233BE4-C241-4601-9152-88793370CF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D233BE4-C241-4601-9152-88793370CF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D233BE4-C241-4601-9152-88793370CF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D233BE4-C241-4601-9152-88793370CF83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7CAB3C7-0B5D-4646-934B-5857874F0A84}
+	EndGlobalSection
+EndGlobal
